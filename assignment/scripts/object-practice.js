@@ -45,7 +45,9 @@ console.log(`The first item in my favThreeFoods array is: ${lastItemInFavFoodArr
   - Set your object's shoeCount to be what it was plus 1
   - Console.log your updated shoe count. 
 */
-
+console.log(`Shoe Count: ${me.shoeCount}`);
+me.shoeCount += 1;
+console.log(`Updated Shoe Count: ${me.shoeCount}`);
 
 /* 5. Add a new property to an existing object.
   - Add a 'favoriteColor' to your existing object
@@ -53,3 +55,7 @@ console.log(`The first item in my favThreeFoods array is: ${lastItemInFavFoodArr
   - Cool huh? It works, even though it wasn't there before
   - Console.log your object
 */
+
+console.log('Before adding a new property, the object is:', me);
+me.favoriteColor = 'Blue'
+console.log(`Added this new property to the existing object: ${me.favoriteColor}. Resulting in the new object being:  `, me);
